@@ -1,0 +1,61 @@
+html { 
+  background: url(wallpaper.jpg) no-repeat center  fixed; 
+  background-size: cover;
+  font-family: roboto;
+}
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  opacity: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: darkturquoise	;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: darkturquoise;
+  color: white;
+}
+.inscription{
+	position: absolute;
+	margin-left:85% ;
+
+}
+.main{
+  display: flex;
+  position: fixed;
+  margin-left:25%;
+  margin-top: 5%;
+  width: 50%;
+  height: 50%;
+  align-items: center;
+}
+#boxs{
+	width: 90%;
+	height: 90%;
+}
+#boxs input {
+ background-color: darkturquoise;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: black solid 4px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
